@@ -56,3 +56,13 @@ typings/
 
 # dotenv environment variables file
 .env
+
+
+logs/
+coverage/
+.idea/
+run/
+.DS_Store
+*.swp
+package-lock.json
+yarn.lock
