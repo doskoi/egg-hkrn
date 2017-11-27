@@ -1,0 +1,225 @@
+{
+  "keys": "/Users/CodingMonkey/workspace/egg-hkrn/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+  "name": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "version": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "description": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "main": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+      "test": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "license": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "strict": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+      "depth": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "env": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "level": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+    }
+  },
+  "coreMiddleware": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+      "port": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "/Users/CodingMonkey/workspace/egg-hkrn/node_modules/egg/config/config.default.js"
+  }
+}
