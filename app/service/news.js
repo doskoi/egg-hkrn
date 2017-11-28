@@ -12,13 +12,19 @@ class NewsService extends Service {
             endAt: `"${pageSize * page - 1}"`,
         },
         dataType: 'json',
+        enableProxy: true,
+        proxy: 'http://127.0.0.1:1080',
       });
 
       //parallel get detail
       const newList = await Promise.all(
-          Object.keys(idList).map(key => {
+          Object.keys(data).map(key => {
               const url = `$(serverUrl)/item/${idList[key]}.json`;
-              return this.ctx.curl(url, {dataType: 'json'});
+              return this.ctx.curl(url, {
+                  dataType: 'json',
+                  enableProxy: true,
+                  proxy: 'http://127.0.0.1:1080',
+                });
           })
       );
       return newsList.map(res => res.data);

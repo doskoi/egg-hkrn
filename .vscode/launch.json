@@ -7,8 +7,44 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
-            "program": "${workspaceFolder}/app\\service\\news.js"
+            "name": "Egg Debug",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run",
+                "debug"
+            ],
+            "console": "integratedTerminal",
+            "restart": true,
+            "protocol": "auto",
+            "port": 9999
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Egg Debug with brk",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run",
+                "debug",
+                "--",
+                "--inspect-brk"
+            ],
+            "protocol": "inspector",
+            "port": 9229
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Egg Test",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run",
+                "test-local",
+                "--",
+                "--inspect-brk"
+            ],
+            "protocol": "auto",
+            "port": 9229
         }
     ]
 }

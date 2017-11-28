@@ -5,7 +5,7 @@ class NewsController extends Controller {
     const ctx = this.ctx;
     const page = ctx.query.page || 1;
     const newsList = await ctx.service.news.list(page);
-    await ctx.render('news/list.html', dataList);
+    await ctx.render('news/list.html', { list: newsList });
   }
 }
 
