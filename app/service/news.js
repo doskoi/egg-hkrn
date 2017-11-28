@@ -5,7 +5,7 @@ class NewsService extends Service {
         //read config
       const {serverUrl, pageSize} = this.config.news;
         //get hkrn api
-      const {data, idList} = await this.ctx.curl(`${serverUrl}/topstories.json`, {
+      const {data: idList} = await this.ctx.curl(`${serverUrl}/topstories.json`, {
         data: {
             orderBy: '"$key"',
             startAt: `"${pageSize * (page - 1)}"`,
@@ -13,17 +13,18 @@ class NewsService extends Service {
         },
         dataType: 'json',
         enableProxy: true,
-        proxy: 'http://127.0.0.1:1080',
+        proxy: 'http://127.0.0.1:6152',
       });
 
+      console.log(idList);
+
       //parallel get detail
-      const newList = await Promise.all(
-          Object.keys(data).map(key => {
+      const newsList = await Promise.all(
+          Object.keys(idList).map(key => {
               const url = `$(serverUrl)/item/${idList[key]}.json`;
               return this.ctx.curl(url, {
-                  dataType: 'json',
                   enableProxy: true,
-                  proxy: 'http://127.0.0.1:1080',
+                  proxy: 'http://127.0.0.1:6152',
                 });
           })
       );
