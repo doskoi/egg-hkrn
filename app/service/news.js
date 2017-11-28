@@ -13,19 +13,22 @@ class NewsService extends Service {
         },
         dataType: 'json',
         enableProxy: true,
-        proxy: 'http://127.0.0.1:6152',
+        proxy: 'http://127.0.0.1:1080',
       });
 
-      console.log(idList);
+    //   console.log(idList);
 
       //parallel get detail
       const newsList = await Promise.all(
           Object.keys(idList).map(key => {
-              const url = `$(serverUrl)/item/${idList[key]}.json`;
+              const url = `${serverUrl}/item/${idList[key]}.json`;
+            //   console.log(url);
               return this.ctx.curl(url, {
-                  enableProxy: true,
-                  proxy: 'http://127.0.0.1:6152',
-                });
+                dataType: 'json',
+                enableProxy: true,
+                proxy: 'http://127.0.0.1:1080',
+                timeout: 10000,
+              });
           })
       );
       return newsList.map(res => res.data);
