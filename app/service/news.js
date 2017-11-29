@@ -3,7 +3,7 @@ const Service = require('egg').Service;
 class NewsService extends Service {
     async list(page = 1) {
         //read config
-      const {serverUrl, pageSize} = this.config.news;
+      const {serverUrl, pageSize, localProxy} = this.config.news;
         //get hkrn api
       const {data: idList} = await this.ctx.curl(`${serverUrl}/topstories.json`, {
         data: {
@@ -13,7 +13,7 @@ class NewsService extends Service {
         },
         dataType: 'json',
         enableProxy: true,
-        proxy: 'http://127.0.0.1:1080',
+        proxy: `${localProxy}`,
       });
 
     //   console.log(idList);
@@ -26,7 +26,7 @@ class NewsService extends Service {
               return this.ctx.curl(url, {
                 dataType: 'json',
                 enableProxy: true,
-                proxy: 'http://127.0.0.1:1080',
+                proxy: `${localProxy}`,
                 timeout: 10000,
               });
           })

@@ -10,6 +10,7 @@ exports.view = {
 exports.news = {
     pageSize: 5,
     serverUrl: 'https://hacker-news.firebaseio.com/v0',
+    localProxy: 'http://127.0.0.1:8899',
 };
 
 exports.middleware = [
