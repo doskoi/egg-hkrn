@@ -33,20 +33,20 @@ class NewsService extends Service {
         });
       })
     );
-      function getTLD(hostname) {
-        const hostnameArray = hostname.split(".");
-        const posOfTld = hostnameArray.length - 2;
-        const tld = hostnameArray[posOfTld] + '.' + hostnameArray[posOfTld+1];
-        return tld;
-      }
-      return newsList.map(function (res) {
-        const data = res.data;
-        const { URL } = require('url');
-        const theURL = new URL(data.url);
-        const hostname = getTLD(theURL.hostname);
-        data.domain = hostname;
-        return data;
-      });
+	function getTLD(hostname) {
+		const hostnameArray = hostname.split(".");
+		const posOfTld = hostnameArray.length - 2;
+		const tld = hostnameArray[posOfTld] + '.' + hostnameArray[posOfTld+1];
+		return tld;
+	}
+	return newsList.map(function (res) {
+		const data = res.data;
+		const { URL } = require('url');
+		const theURL = new URL(data.url);
+		const hostname = getTLD(theURL.hostname);
+		data.domain = hostname;
+		return data;
+	});
   }
 }
 
